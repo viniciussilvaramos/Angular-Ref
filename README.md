@@ -8,12 +8,12 @@ Ainda falta implementar a parte final, referente aos Observables e uso do HttpCl
 
 Abaixo, alguns comandos de referência para simplificar a implementação de um novo projeto em angular:
 
-**Para instalar o Angular:** npm install -g @angular/cli
-**Para criar um novo app:** ng new <nome do app>
-**Para compilar o projeto e já abrir em uma nova janela:** ng serve -o (ou --open)
-**Para criar um novo componente:** ng g c <caminho + nome do componente> *ou* ng generate component <caminho + nome do componente>
-**Para criar um novo serviço:** ng g s <caminho + nome do serviço> *ou* ng generate service <caminho + nome do serviço>
-**Para gerar o módulo de rotas:** ng generate module app-routing --flat --module=app 
+**Para instalar o Angular:** npm install -g @angular/cli\
+**Para criar um novo app:** ng new <nome do app>\
+**Para compilar o projeto e já abrir em uma nova janela:** ng serve -o (ou --open)\
+**Para criar um novo componente:** ng g c <caminho + nome do componente> *ou* ng generate component <caminho + nome do componente>\
+**Para criar um novo serviço:** ng g s <caminho + nome do serviço> *ou* ng generate service <caminho + nome do serviço>\
+**Para gerar o módulo de rotas:** ng generate module app-routing --flat --module=app \
 - *--flat* faz com que o módulo seja criado fora de uma pasta específica, diretamente na pasta app. 
 - *--module* informa para o cli registrar o módulo diretamente no array de imports do AppModule
 
